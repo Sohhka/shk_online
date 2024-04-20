@@ -1,0 +1,94 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+#rectangle1 {
+    width: 1200px;
+    height: 70px;
+    margin-left: 35.8%;
+    margin-top: 51%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+    z-index: 2;
+    overflow: visible;
+    position: fixed;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: black;
+    background-image: url("img/background.png");
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+}
+
+.infos {
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    overflow: visible;
+    position: fixed;
+    background: linear-gradient(to left, #00000000, rgba(0, 0, 0, 0.800));
+    z-index: 10; 
+}
+
+.loading {
+    width: 140px;
+    height: 140px;
+    margin-left: 92.7%;
+    margin-top: 49.1%;
+    overflow: visible;
+    position: fixed;
+    z-index: 10;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.750);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20pt;
+    margin-top: 51.9%;
+    margin-left: 60%;
+    overflow: visible;
+    position: fixed;
+    z-index: 100;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.750);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20pt;
+    margin-top: 51.9%;
+    margin-left: 70%;
+    overflow: visible;
+    position: fixed;
+    z-index: 100;   
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.750);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20pt;
+    margin-top: 51.9%;
+    margin-left: 80%;
+    overflow: visible;
+    position: fixed;
+    z-index: 100;   
+}
+
+#img {
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    overflow: visible;
+    position: fixed;
+    background: linear-gradient(to left, #00000000, rgba(0, 0, 0, 0.800));
+    z-index: 1000000;   
+}
+
+#audio {
+}
